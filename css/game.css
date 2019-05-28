@@ -1,0 +1,120 @@
+body {
+    background-image: url("../img/backmine.jpg");
+    margin-left: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.board{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.timer{
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+}
+
+.hint{
+    size: 10px;
+    padding-left: 50px;
+}
+
+.middle{
+    display: flex;
+}
+
+.hint-emoji{
+    display: block;
+}
+
+#cell-button{
+    margin-right: 30px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ffffff;
+    border-radius:38px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Courier New;
+	font-size:28px;
+	font-weight:bold;
+	padding:6px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+
+}
+#cell-button:hover{
+    background: blue;
+}
+
+.lives{
+    color: #fff;
+    margin-right: 25px;
+}
+
+.best-score{
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    float: left;
+    line-height: 20px;
+}
+
+td {
+    background-color: #fff;
+    transition:background-color 0.4s;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}
+td:hover{
+    cursor: pointer;
+    background-color:blue;
+}
+
+.game-over{
+    line-height: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 800px;
+    margin-top: 150px;
+}
+button{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ffffff;
+    border-radius:38px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Courier New;
+	font-size:28px;
+	font-weight:bold;
+	padding:6px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+/* button {
+    background: white;
+    color: black;
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+} */
+
+button:hover {
+    background-color:blue;
+}
